@@ -1,0 +1,30 @@
+.contenido {
+    background-color: whitesmoke;
+    padding: 1%;
+    padding-top: 50px;
+    font-family: Helvetica;
+}
+
+.contenido p {
+    font-size: large;
+}
+
+.contenido div {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: justify;
+ 
+}
+
+.contenido div h2 {
+    color: #00ADB5;
+    font-size: 30pt;
+    text-align: center;
+}
+.contenido div p{
+    
+}
+iframe{
+margin-left: 30%;
+
+}

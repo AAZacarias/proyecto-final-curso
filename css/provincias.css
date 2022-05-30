@@ -1,0 +1,469 @@
+.contenido {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex: auto;
+    color: whitesmoke;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contenido a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: #06060b 3px 3px;
+}
+/*Buenos aires*/
+#Buenos-aires {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/bsas1.jpg);
+    background-size:300px 300px;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Buenos-aires:hover{
+    background-image: url(img-pag-final/bsas2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 500ms;
+}
+/*Catamarca*/
+#Catamarca {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/catamarca1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Catamarca:hover{
+    background-image: url(img-pag-final/catamarca2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 500ms;
+}
+
+/*Chaco*/
+#Chaco {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/chaco1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Chaco:hover{
+    background-image: url(img-pag-final/chaco2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 500ms;
+}
+
+/*Chubut*/
+#Chubut {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/chubut1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Chubut:hover{
+    background-image: url(img-pag-final/chubut2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 500ms;
+}
+
+/*Cordoba*/
+#Cordoba {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/cordoba1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Cordoba:hover{
+    background-image:url(img-pag-final/cordoba3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 500ms;
+}
+
+/*Corrientes*/
+#Corrientes {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/corrientes1.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Corrientes:hover{
+    background-image: url(img-pag-final/corrientes2.jpg);
+    background-size: cover;
+    transition: 500ms;
+}
+/*Entre rios*/
+#Entre-Rios {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/entre-rios1.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Entre-Rios:hover{
+    background-image: url(img-pag-final/entre-rios2.jpg);
+    background-size: cover;
+    transition: 500ms;
+}
+/*Formosa*/
+#Formosa {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/formosa-laguna\ blanca.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Formosa:hover{
+    background-image: url(img-pag-final/formosa-reserva.jpg);
+    background-size: cover;
+    transition: 500ms;
+}
+/*Jujuy*/
+#Jujuy {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/jujuy-quebrada\ de\ humahuaca.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Jujuy:hover{
+    background-image: url(img-pag-final/jujuy-salina\ grande.jpg);
+    background-size: cover;
+    transition: 500ms;
+}
+/*La pampa*/
+#La-Pampa {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/la-pampa-parque\ luro.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#La-Pampa:hover{
+    background-image: url(img-pag-final/la-pampa-parque\ nacional\ lihue\ calel.jpg);
+    background-size: cover;
+    transition: 500ms;
+}
+/*La rioja*/
+#La-Rioja {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/la-rioja-cuesta\ de\ miranda.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#La-Rioja:hover{
+    background-image: url(img-pag-final/la-rioja-parque\ dinosaurios.jpg);
+    background-size: cover;
+    transition: 500ms;
+}
+/*Mendoza*/
+#Mendoza {
+    width: 300px;
+    height: 300px;
+background-image: url(img-pag-final/mendoza-san\ rafael.jpg);
+background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Mendoza:hover{
+    background-image: url(img-pag-final/mendoza-aconcagua.jpg);
+    background-size: cover;
+    transition: 500ms;
+}
+/*Misiones*/
+#Misiones {
+    width: 300px;
+    height: 300px;
+   background-image: url(img-pag-final/misiones-sendero\ macuco.jpg);
+   background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Misiones:hover{
+    background-image: url(img-pag-final/misiones-garganta\ del\ diablo.jpg);
+    background-size: cover;
+    transition: 500ms;
+}
+/*Neuquen*/
+#Neuquen {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/neuquen-san\ martin\ de\ los\ andes.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Neuquen:hover{
+    background-image: url(img-pag-final/neuquen-villa\ la\ angostura.jpg);
+    background-size: cover;
+    transition: 500ms;
+}
+/*Rio negro*/
+#Rio-Negro {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/rio-negro-cerro\ tronador.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Rio-Negro:hover{
+    background-image: url(img-pag-final/rio-negro-parque\ nahuelito.jpg);
+    background-size:300px 300px; 
+    transition: 500ms;
+}
+/*Salta*/
+#Salta {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/salta-cuevas-de-acsibi.jpg);
+    background-size:cover ;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Salta:hover{
+    background-image: url(img-pag-final/salta-tren\ de\ las\ nubes.jpg);
+    background-size:cover; 
+    transition: 500ms;
+}
+/*San juan*/
+#San-Juan {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/san-juan-Dique-de-Ullum.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#San-Juan:hover{
+    background-image: url(img-pag-final/san-juan-Valle-de-la-Luna.webp);
+    background-size:300px 300px; 
+    transition: 500ms;
+}
+/*San luis*/
+#San-Luis {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/san-luis-merlo.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#San-Luis:hover{
+    background-image: url(img-pag-final/san-luis-sierra\ de\ las\ quijadas.jpg);
+    background-size:cover; 
+    transition: 500ms;
+}
+/*Santa fe*/
+#Santa-Fe {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/santa-fe-rosario\ \(1\).jpg);
+    background-size:  cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Santa-Fe:hover{
+    background-image: url(img-pag-final/santa-fe-nocturna-puente-rosario.jpg);
+    background-size:cover; 
+    transition: 500ms;
+}
+/*Santa cruz*/
+#Santa-Cruz {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/santa-cruz-perito\ moreno.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Santa-Cruz:hover{
+    background-image: url(img-pag-final/santa-cruz-los\ antiguos.jpg);
+    background-size:cover; 
+    transition: 500ms;
+}
+/*Santiago del estero*/
+#Santiago-del-Estero {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/santiago-del-estero-termas\ del\ rio\ jordan.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+    text-decoration:none;
+}
+#Santiago-del-Estero:hover{
+    background-image: url(img-pag-final/santiago-del-estero-museo.jpeg);
+    background-size:cover; 
+    transition: 500ms;
+}
+/*Tierra del fuego*/
+#Tierra-del-Fuego {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/tierra-del-fuego-ushuaia.webp);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Tierra-del-Fuego:hover{
+    background-image: url(img-pag-final/tierra-del-fuego-faro-les-eclaireurs_ebf77ae8_1280x853.jpg);
+    background-size:cover; 
+    transition: 500ms;
+}
+/*Tucuman*/
+#Tucuman {
+    width: 300px;
+    height: 300px;
+    background-image: url(img-pag-final/tucuman-un-cuadro-en-movimiento.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    border: whitesmoke 2pt solid;
+}
+#Tucuman:hover{
+    background-image: url(img-pag-final/tucuman-nota\ aerosilla\ 1\ red.jpg);
+    background-size:300px 300px; 
+    transition: 500ms;
+}

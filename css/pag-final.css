@@ -1,0 +1,95 @@
+/*formato a la pagina*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Cabecera con titulo y subtitulo*/
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-shadow:2px 2px 4px #eee ;
+}
+
+#ARG {
+    background-color: #06060b;
+    color: rgb(240, 255, 255);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 190px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    mix-blend-mode: multiply;
+    
+}
+
+.sub {
+    background-color: #06060b;
+    color: rgb(240, 255, 255);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    mix-blend-mode: multiply;
+}
+
+/*Barra de navegacion*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #708ca0;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #06060b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li a:hover {
+    background-color: #252d32;
+    color: whitesmoke;
+}
+
+body {
+    background-image: url(img-pag-final/17545.jpg);
+    background-size: cover;
+}
+
+
+/*Footer*/
+footer {
+    background-color: #708ca0;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:static;
+    bottom:0;
+    width: 100%;
+    height: 2.5em;
+    display:inline-block;
+    
+}

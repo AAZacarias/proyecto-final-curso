@@ -1,0 +1,167 @@
+#video-lugares {
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lugares-sugeridos {
+    width: 65%;
+    float: left;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+}
+
+.menos-sugeridos {
+    width: 25%;
+    float: right;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: antiquewhite;
+    display: inline-block;
+    font-size: 20pt;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/*Mendoza*/
+#mendoza {
+    width: 100%;
+    height: 350px;
+    background-image: url(img-pag-final/mendoza.jpg);
+    background-size: cover;
+    text-shadow: 2px 2px 2px black;
+}
+#mendoza p{
+    visibility: hidden;
+    font-size: 2em;
+    font-family: Helvetica;
+}
+ 
+#mendoza a {
+    font-size: 10em;
+}
+
+#mendoza:hover p {
+    background-color: #393e46c0;
+    visibility: visible;
+    transition: 500ms;
+}
+
+/*Bariloche*/
+#bariloche {
+    width: 100%;
+    height: 350px;
+    background-image: url(img-pag-final/rio-negro-bariloche.webp);
+    background-size: cover;
+    text-shadow: 2px 2px 2px black;
+}
+#bariloche a{
+    font-size: 10em;
+}
+#bariloche p{
+    visibility: hidden;
+    font-size: 2em;
+    font-family: Helvetica;
+}
+#bariloche:hover p{
+    background-color: #393e46c0;
+    visibility: visible;
+    transition: 500ms;
+}
+/*Cataratas*/
+#cataratas {
+    width: 100%;
+    height: 350px;
+    background-image: url(img-pag-final/misiones-cataratas-iguazu.jpg);
+    background-size: cover;
+    text-shadow: 2px 2px 2px black;
+}
+#cataratas a{
+    font-size: 10em;
+}
+#cataratas p{
+    visibility: hidden;
+    font-size: 2em;
+    font-family: Helvetica;
+}
+#cataratas:hover p{
+    background-color: #393e46c0;
+    visibility: visible;
+    transition: 500ms;
+}
+/*Cerro de los siete colores*/
+#cerro-7 {
+    width: 100%;
+    height: 350px;
+    background-image: url(img-pag-final/jujuy-cerro\ de\ los\ 7\ colores.jpg);
+    background-size: cover;
+    text-shadow: 2px 2px 2px black;
+}
+#cerro-7 a{
+    font-size: 5em;
+}
+#cerro-7 p{
+    visibility: hidden;
+    font-size: 2em;
+    font-family: Helvetica;
+}
+#cerro-7:hover p{
+    background-color: #393e46c0;
+    visibility: visible;
+    transition: 500ms;
+}
+/*aside con otras sugerencias*/
+.subtitulo {
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    height: 3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#mardel {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30pt;
+    background-image: url(img-pag-final/buenos-aires-mardel.jpg);
+    background-size: cover;
+    text-shadow: 5px 2px 1px black;
+}
+
+#carlos-paz {
+    width: 100%;
+    height: 350px;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30pt;
+    background-image: url(img-pag-final/cordoba-carlos-paz-turismo.jpeg);
+    background-size: cover;
+    text-shadow: 5px 2px 1px black;
+}
+
+#gualeguaychu {
+    width: 100%;
+    height: 350px;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 35pt;
+    background-image: url(img-pag-final/entre-rios-gualeguaychu.webp);
+    background-size: cover;
+    text-shadow: 5px 2px 1px black;
+}

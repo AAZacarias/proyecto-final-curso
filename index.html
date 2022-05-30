@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo ARG</title>
+    <link rel="stylesheet" href="css/pag-final.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script id="edad" type="text/javascript">
+        //declaro variable a ingresar por el usuario
+        var edad = prompt("Ingrese su edad");
+
+        //con esta variable llamo a la funcion 
+        var mayor_o_menor = mayorMenor(edad);
+
+        //me muestra la respuesta en pantalla
+        alert("Sos " + mayor_o_menor);
+
+        //funcion que verifica si es mayor o no de 18
+        function mayorMenor(edad) {
+            if (edad >= 18) {
+                return "mayor, puedes seguir viendo tranquilamente";
+            }
+            else {
+                return "menor, vas a poder ver pero con control parental";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h2 class="sub">Turismo</h2>
+        <h1 id="ARG">ARGENTINA</h1>
+        <h2 class="sub">Mejores Lugares</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contactanos</a></li>
+            <li><a href="Top-lugares.html">Top Lugares</a></li>
+            <li><a href="Sobre-arg.html">Sobre Argentina</a></li>
+            <li><a href="provincias.html">Provincias</a></li>
+        </ul>
+    </nav>
+    <main id="todo-content">
+        <br>
+        <iframe id="video-lugares" width="560" height="315" src="https://www.youtube.com/embed/bu-XsOIzbsA"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe><br><br>
+        <section class="lugares-sugeridos">
+            <div id="mendoza"><a href="https://mendoza.tur.ar/" target="_blank">Mendoza</a><br>
+                <p>¿Sos amante del vino? Visita Mendoza , en mi opinión los mejores viñedos de nuestro País están
+                    ubicados en esta hermosa provincia precordillerana , buen clima y Montañas. </p>
+            </div><br>
+            <div id="bariloche"><a href="https://barilocheturismo.gob.ar/es/home" target="_blank">Bariloche</a>
+                <p>Bariloche es la conjunción perfecta entre ciudad y naturaleza, sin duda alguna un lugar único que
+                    todos los Argentinos deberíamos visitar.</p>
+            </div>
+            <br>
+            <div id="cataratas"><a href="https://iguazuturismo.gob.ar/web/" target="_blank">Cataratas</a>
+                <p>Las cataratas se
+                    encuentran la frontera entre Argentina y Brasil y fueron seleccionadas como una de las Nuevas
+                    Siete Maravillas Naturales del Mundo.</p>
+            </div><br>
+            <div id="cerro-7"><a href="http://www.turismo.jujuy.gob.ar/item/purmamarca/" target="_blank">Cerro de los
+                    siete colores</a>
+                <p>Imagen inconfundible del paisaje jujeño y protector del único lugar que sigue siendo un pueblo en la
+                    Quebrada Patrimonial. Su ubicación afectuosa abraza al pueblo de Purmamarca.</p>
+            </div><br>
+        </section><br>
+
+        <aside class="menos-sugeridos">
+            <h3 class="subtitulo">Otras opciones</h3><br>
+            <div id="mardel"><a href="https://www.turismomardelplata.gob.ar/" target="_blank">Mar del Plata</a></div>
+            <br>
+            <div id="carlos-paz"><a href="https://villacarlospaz.tur.ar/" target="_blank">Villa Carlos Paz</a></div><br>
+            <div id="gualeguaychu"><a href="https://www.gualeguaychu.tur.ar/" target="_blank">Gualeguaychú</a></div><br>
+        </aside><br>
+    </main>
+    <footer>Derechos Reservados - Agustin Zacarias - 2022</footer>
+</body>
+
+</html>

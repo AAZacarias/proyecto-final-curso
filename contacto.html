@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto turismo</title>
+    <link rel="stylesheet" href="css/pag-final.css">
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="sub">Turismo</h2>
+        <h1 id="ARG">ARGENTINA</h1>
+        <h2 class="sub">Mejores Lugares</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contactanos</a></li>
+            <li><a href="Top-lugares.html">Top Lugares</a></li>
+            <li><a href="Sobre-arg.html">Sobre Argentina</a></li>
+            <li><a href="provincias.html">Provincias</a></li>
+        </ul>
+    </nav>
+    <br>
+    <main class="todos-form">
+        <form id="contact-form" action="#" method="post">
+            <div class="entrada">
+                <label class="required" for="nombre">Tu nombre</label><br>
+                <input id="nombre" class="input" name="nombre" type="text" value="" size="30"><br>
+                <span id="nombre-validacion" class="error-mensaje"></span>
+            </div><br>
+            <div class="entrada">
+                <label class="required" for="email">Tu email</label><br>
+                <input id="email" class="input" name="email" type="email" value="" size="30"><br>
+                <span id="email-validacion" class="error-mensaje"></span>
+            </div><br>
+            <div class="entrada">
+                <label class="required" for="enviar-consulta">Tu consulta</label><br>
+                <textarea id="mensaje" class="input" name="mensaje" row="7" cols="30"></textarea><br>
+                <span id="mensaje-validacion" class="error-mensaje"></span>
+            </div><br>
+            <input id="Enviar-boton" type="submit" value="Enviar"><br><br>
+            <div class="entrada">
+                <label id="mensaje-wsp" class="required" for="mensaje">Mandar un whatsapp con su
+                    consulta</label><br><br>
+                <a href="https://api.whatsapp.com/send?phone=336433333&text=hola,%20¿Necesitas
+            Información?" target="_blank"><img class="icon-wsp"
+                        src="css/img-pag-final/580b57fcd9996e24bc43c543.png"></a><br>
+                <span id="mensaje-validacion" class="error-mensaje"></span>
+            </div>
+        </form><br>
+    </main><br>
+    <table id="integrantes">
+
+        <tr>
+            <td>
+                <h2>Creador de esta pagina web</h2>
+            </td>
+        </tr>
+        <tr>
+            <td id="nombre-creador">Agustin Zacarias</td>
+        </tr>
+        <tr>
+            <td><img id="foto-perfil" src="css/img-pag-final/cumple (1).jpg" alt="imagen Agustin Zacarias"></td>
+        </tr>
+    </table>
+    <footer>Derechos Reservados - Agustin Zacarias - 2022</footer>
+</body>
+
+</html>

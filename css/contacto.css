@@ -1,0 +1,56 @@
+.todos-form {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 500px;
+    padding: 5px;
+    background-color: rgba(240, 248, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+#mensaje {
+    resize: none;
+    height: 15em;
+}
+
+.entrada {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#Enviar-boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Whatsapp*/
+.icon-wsp {
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mensaje-wsp {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+
+table {
+    margin-left: 39%;
+}
+table tr{
+    display: flex;
+    justify-content: center;
+}
+#nombre-creador{
+    font-size: large;
+}
+#foto-perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

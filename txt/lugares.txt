@@ -1,0 +1,215 @@
+Lugares turisticos:
+-CUEVAS DE ACSIBI
+-**cataratas del iguazu
+-cafayate
+-**mendoza
+-calafate y glaciares
+-bariloche
+-puerto madryn
+-usuhuaia
+-el valle de la luna, salta
+-*ciudad autonoma, bs as
+-perito moreno,santa cruz
+-quebrada de humahuaca
+-peninsula de valdes 
+-cordoba
+-aconcagua
+-tren a las nubes
+-salinas grandes
+-sierra de las quijadas
+-esteros del ibera
+-merlo
+-rosario
+-tigre
+-la plata
+-villa epecuen
+-villa la angostura
+-parque nacional los alerces
+-san rafael
+-san martin de los andes
+-sierra de la ventana
+-el chalten
+-los antiguos, santa cruz
+-termas del rio jordan, jujuy
+
+
+buenos aires:
+-tigre
+-ciudad autonoma
+-villa epecuen
+-sierra de la ventana
+-tandil
+-mar del plata
+
+Catamarca:
+-san fernando del valle de Catamarca
+-fiambala
+-antofagasta de la sierra
+-tinogasta
+-volcan incahuasi
+
+Chaco:
+-parque nacional Chaco
+-el impenetrable
+
+Chubut:
+-puerto madryn
+-esquel
+-puerto piramides
+-trevelin
+-peninsula valdes
+-el bolson
+-parque nacional los alerces
+-reserva natural nant & Fall
+-parque nacional lago puelo
+
+Cordoba:
+-villa carloz paz(aereosilla)
+-capilla del monte
+-general belgrano
+-camino de las altas cumbres
+-caminos de las 100 curvas
+-valle de calamuchita
+-parque nacional quebrada del condorito
+-mar chiquita
+-cerro colorado
+-tuneles de taninga y volcanes de pocho
+-el uritorco
+
+Corrientes:
+-ituzaingo
+-gobernador virasoro
+-esteros del ibera
+
+Entre Rios:
+-colon
+-gualeguaychú
+-parana
+-parque nacional el palmar
+
+Formosa:
+-laguna blanca
+-bañado la estrella
+-Reserva natural Formosa
+-parque nacional rio pilcomayo
+
+Jujuy:
+-pucara de tilcara
+-purmamarca
+-quebrada de humahuaca
+-salinas grandes
+-serranias del hornocal
+-cerro de los 7 colores
+-waterfall  garganta del diablo
+-cuevas de waira
+
+La Pampa:
+-reserva provincial parque luro
+-parque nacional lihue calel
+
+La Rioja:
+-cuesta de miranda
+-laguna brava
+-parque nacional talampaya
+-cañon del arco iris
+-vuelta al pique
+-parque de dinosaurios sanagasta
+-mina la mejicana
+
+Mendoza:
+-parque nacional aconcagua
+-bodega tierra altas
+-parque general san martin
+-rio mendoza
+-potrerillos Dam
+
+Misiones:
+-cataratas del iguazu
+-garganta del diablo
+-parque nacional iguazu
+-güiraoga
+-los saltos del mocona
+-sendero macuco
+-hito tres fronteras
+-la aripuca 
+
+Neuquen:
+-san martin de los andes
+-villa la angostura
+-junin de los andes
+-ruta de los 7 lagos
+-cerro bayo
+-rio correntoso
+-parque nacional los arrayanes
+-lago espejo 
+-represa el chocon
+-volcan batea mahuida
+
+Rio Negro:
+-bariloche
+-el bolson
+-circuito chico
+-cerro tronador
+-parque nahuelito
+-parque nacional nahuel huapi
+-cerro otto
+
+Salta:
+-cuesta del obispo
+-salinas grandes
+-anfiteatro natural
+-cerro san bernardo
+-el tren a las nubes
+-teleferico san bernardo
+
+San Juan:
+-ruta escenica RN°150
+-paso de agua negra
+-dique de ullum
+-ruta interlagos
+
+San Luis:
+-parque nacional sierra de las quijadas
+-dique embalse nogoli
+-balneario la hoya
+-salinas del bebedero
+-ruta del macizo central
+-salto del chispiadero
+
+Santa Cruz:
+-el calafate
+-perito moreno
+-cabo virgenes
+-laguna de los tres
+-laguna torre
+-cerro fitz roy
+-el chalten
+-los antiguos
+
+Santa Fe:
+-acuario rio parana
+-monumento a la bandera
+-parque de la independencia
+-puente rosario-victoria 
+
+Santiago del Estero:
+-termas de rio hondo
+-museo del automovil
+-reserva natural tara inti
+
+Tierra del Fuego:
+-usuhuaia
+-parque nacional tierra del Fuego
+-canal beagle
+-laguna esmeralda
+-glacier martial
+-isla martillo
+-cerro castor
+-lago escondido
+-faro les eclaireurs
+-glaciar vinciguerra
+
+Tucuman:
+-parque sierra de san javier
+-cascada del rio noque
+-aereosilla el cadillal

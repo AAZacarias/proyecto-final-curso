@@ -1,0 +1,85 @@
+INDEX
+mostrar algunos lugares o atracciones, con un calendario, mas alerta de javascript para saber que el usuario que entre sea mayor de edad
+
+Sugerencias-index:
+poner img y demas
+
+Sugerencias-menos-atractivas:
+solo imagenes
+
+Todo sea responsive y me mande a otra pagina
+
+poner un video referente
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CONTACTO
+hacer que se pueda mandar un email, whatsapp con un mensaje
+
+
+<footer style="background-color: yellowgreen;text-align: center;">
+        <h5>REDES</h5>
+            <a href="https://www.instagram.com">Instagram</a> / 
+            <a href="https://www.facebook.com">Facebook</a> / 
+            <a href="https://www.twitter.com">Twitter</a> /
+            <a href="https://api.whatsapp.com/send?phone=336433333&text=hola,%20¿Necesitas
+            Información?" target="_blank">Mensaje a mi whatsapp</a>
+            <a href="mailto:noticiasrandom@gmail.com?subject=preguntas">Email</a>
+            <p>
+                Todos los derechos reservados © 2022 Noticias Random
+            </p>
+    </footer>
+
+hacer formulario
+hacer tabla presentando integrantes con img
+
+<div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Your message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    
+    <input id="submit_button" type="submit" value="Send email" />
+</form>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOP LUGARES
+lugares mas turisticos
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SOBRE ARGENTINA
+contar un poco sobre argentina como lugar turisticos
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROVINCIAS
+mostrar todas las provincias y al pretar que muestre los mejores lugares de esa provincia
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+script alert
+<script type="text/javascript">
+        //declaro variable a ingresar por el usuario
+        var edad = prompt("introduce tu edad");
+
+        //con esta variable llamo a la funcion 
+        var mayor_o_menor = mayorMenor(edad);
+
+        //me muestra la respuesta en pantalla
+        alert("sos " + mayor_o_menor);
+        
+        //funcion que verifica si es mayor o no de 18
+        function mayorMenor(edad) {
+            if (edad >= 18) {
+                return "mayor";
+            }
+            else {
+                return "menor";
+            }
+        }
+    </script>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
